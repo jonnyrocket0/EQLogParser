@@ -12,3 +12,6 @@ The Releases folder has recent builds. The msi installer and exe have now been s
 2. under the digital signatures tab select the one signature and click details
 3. click View Certificate
 4. click Install Certificate
+
+# Example
+![Parser](./examples/example1.png)
