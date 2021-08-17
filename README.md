@@ -15,3 +15,7 @@ The Releases folder has recent builds. The msi installer and exe have now been s
 
 # Example
 ![Parser](./examples/example1.png)
+
+# Overlay Example
+![Overlay](./examples/example2.png)
+
