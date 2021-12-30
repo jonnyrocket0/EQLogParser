@@ -1,0 +1,1002 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "ActiproSoftware.Controls.WPF.DataGrid.Contrib/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "compile": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Docking/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Shared/22.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        }
+      },
+      "DotLiquid/2.0.325": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/net45/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "FontAwesome.WPF/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {}
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        }
+      },
+      "log4net/2.0.12": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/log4net.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.NetAnalyzers/5.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.props": {},
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WPFTextBoxAutoComplete/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "ActiproSoftware.Controls.WPF.DataGrid.Contrib/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "compile": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Docking/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Shared/22.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        }
+      },
+      "DotLiquid/2.0.325": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/net45/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "FontAwesome.WPF/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {}
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        }
+      },
+      "log4net/2.0.12": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/log4net.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.NetAnalyzers/5.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.props": {},
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WPFTextBoxAutoComplete/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "ActiproSoftware.Controls.WPF.DataGrid.Contrib/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "compile": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Docking/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Shared/22.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        }
+      },
+      "DotLiquid/2.0.325": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/net45/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "FontAwesome.WPF/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {}
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        }
+      },
+      "log4net/2.0.12": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/log4net.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.NetAnalyzers/5.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.props": {},
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WPFTextBoxAutoComplete/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "ActiproSoftware.Controls.WPF.DataGrid.Contrib/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "compile": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Docking/22.1.0": {
+        "type": "package",
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.Shared": "[22.1.0]"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Docking.Wpf.dll": {}
+        }
+      },
+      "ActiproSoftware.Controls.WPF.Shared/22.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ActiproSoftware.Shared.Wpf.dll": {}
+        }
+      },
+      "DotLiquid/2.0.325": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/net45/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "FontAwesome.WPF/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {}
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {}
+        }
+      },
+      "log4net/2.0.12": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Web"
+        ],
+        "compile": {
+          "lib/net45/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45/log4net.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.NetAnalyzers/5.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.props": {},
+          "build/Microsoft.CodeAnalysis.NetAnalyzers.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WPFTextBoxAutoComplete/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WPFTextBoxAutoComplete.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ActiproSoftware.Controls.WPF.DataGrid.Contrib/22.1.0": {
+      "sha512": "+s0yIdurVERqVZaHHiDod/8wJhhZDeHhEJq0OBQF3o4YNgylNT7JR6302E30FFyhO66s+j9VjVdt02cHheMRrg==",
+      "type": "package",
+      "path": "actiprosoftware.controls.wpf.datagrid.contrib/22.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "actiprosoftware.controls.wpf.datagrid.contrib.22.1.0.nupkg.sha512",
+        "actiprosoftware.controls.wpf.datagrid.contrib.nuspec",
+        "images/ActiproIcon.png",
+        "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "lib/net452/ActiproSoftware.DataGrid.Contrib.Wpf.xml",
+        "lib/net5.0-windows/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "lib/net5.0-windows/ActiproSoftware.DataGrid.Contrib.Wpf.xml",
+        "lib/netcoreapp3.1/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "lib/netcoreapp3.1/ActiproSoftware.DataGrid.Contrib.Wpf.xml"
+      ]
+    },
+    "ActiproSoftware.Controls.WPF.Docking/22.1.0": {
+      "sha512": "bPQbsrCJExxSoxZKhWZIGOpR/sfesfx7arxlL2M3PH2AvgpmJFSr510lU5QHNl8vZ0sXIc8gMeZCOrk+rHB70w==",
+      "type": "package",
+      "path": "actiprosoftware.controls.wpf.docking/22.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "actiprosoftware.controls.wpf.docking.22.1.0.nupkg.sha512",
+        "actiprosoftware.controls.wpf.docking.nuspec",
+        "images/ActiproIcon.png",
+        "lib/net452/ActiproSoftware.Docking.Wpf.dll",
+        "lib/net452/ActiproSoftware.Docking.Wpf.xml",
+        "lib/net452/Design/ActiproSoftware.Core.Wpf.DesignTools.dll",
+        "lib/net452/Design/ActiproSoftware.Docking.Wpf.Design.dll",
+        "lib/net452/Design/ActiproSoftware.Docking.Wpf.DesignTools.dll",
+        "lib/net5.0-windows/ActiproSoftware.Docking.Wpf.dll",
+        "lib/net5.0-windows/ActiproSoftware.Docking.Wpf.xml",
+        "lib/net5.0-windows/Design/ActiproSoftware.Core.Wpf.DesignTools.dll",
+        "lib/net5.0-windows/Design/ActiproSoftware.Docking.Wpf.DesignTools.dll",
+        "lib/netcoreapp3.1/ActiproSoftware.Docking.Wpf.dll",
+        "lib/netcoreapp3.1/ActiproSoftware.Docking.Wpf.xml",
+        "lib/netcoreapp3.1/Design/ActiproSoftware.Core.Wpf.DesignTools.dll",
+        "lib/netcoreapp3.1/Design/ActiproSoftware.Docking.Wpf.DesignTools.dll",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "ActiproSoftware.Controls.WPF.Shared/22.1.0": {
+      "sha512": "uahKnV9lLpSc4r/cpGk4PEEMAUHduS5899mUVYrVT8NV1S8Z3w1Lq9ffJg5af+f+Zxc7cmN9w4DGIeRcS21oBg==",
+      "type": "package",
+      "path": "actiprosoftware.controls.wpf.shared/22.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "actiprosoftware.controls.wpf.shared.22.1.0.nupkg.sha512",
+        "actiprosoftware.controls.wpf.shared.nuspec",
+        "images/ActiproIcon.png",
+        "lib/net452/ActiproSoftware.Shared.Wpf.dll",
+        "lib/net452/ActiproSoftware.Shared.Wpf.xml",
+        "lib/net452/Design/ActiproSoftware.Core.Wpf.DesignTools.dll",
+        "lib/net452/Design/ActiproSoftware.Shared.Wpf.Design.dll",
+        "lib/net452/Design/ActiproSoftware.Shared.Wpf.DesignTools.dll",
+        "lib/net5.0-windows/ActiproSoftware.Shared.Wpf.dll",
+        "lib/net5.0-windows/ActiproSoftware.Shared.Wpf.xml",
+        "lib/net5.0-windows/Design/ActiproSoftware.Core.Wpf.DesignTools.dll",
+        "lib/net5.0-windows/Design/ActiproSoftware.Shared.Wpf.DesignTools.dll",
+        "lib/netcoreapp3.1/ActiproSoftware.Shared.Wpf.dll",
+        "lib/netcoreapp3.1/ActiproSoftware.Shared.Wpf.xml",
+        "lib/netcoreapp3.1/Design/ActiproSoftware.Core.Wpf.DesignTools.dll",
+        "lib/netcoreapp3.1/Design/ActiproSoftware.Shared.Wpf.DesignTools.dll",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "DotLiquid/2.0.325": {
+      "sha512": "Of7qniyqNJ6+LeO9LZB5x4oE/kjqXn0QqFvQPuqCZpM2mhvZdcrmyT7Z8ZqxvyK5+/4NV1N7lk5PlkWiaDvbyQ==",
+      "type": "package",
+      "path": "dotliquid/2.0.325",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dotliquid.2.0.325.nupkg.sha512",
+        "dotliquid.nuspec",
+        "lib/net45/DotLiquid.dll",
+        "lib/net45/DotLiquid.xml",
+        "lib/net45/it/DotLiquid.resources.dll",
+        "lib/netstandard1.3/DotLiquid.dll",
+        "lib/netstandard1.3/DotLiquid.xml",
+        "lib/netstandard1.3/it/DotLiquid.resources.dll",
+        "readme.txt"
+      ]
+    },
+    "FontAwesome.WPF/4.7.0.9": {
+      "sha512": "SXE080rnyWMm9Dt0BZzMxh89/o9teuSaqL1N+0O/XM/F/HU8JuZA4XaEKxjBigwZPHHU3/udTa0QMYCHkmH43Q==",
+      "type": "package",
+      "path": "fontawesome.wpf/4.7.0.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.wpf.4.7.0.9.nupkg.sha512",
+        "fontawesome.wpf.nuspec",
+        "lib/net35/FontAwesome.WPF.dll",
+        "lib/net35/FontAwesome.WPF.xml",
+        "lib/net40/FontAwesome.WPF.dll",
+        "lib/net40/FontAwesome.WPF.xml",
+        "lib/uap10.0/FontAwesome.UWP.XML",
+        "lib/uap10.0/FontAwesome.UWP.dll",
+        "lib/uap10.0/FontAwesome.UWP.pri",
+        "lib/uap10.0/FontAwesome.UWP/FontAwesome.otf",
+        "lib/wp81/FontAwesome.WIN81.dll",
+        "lib/wp81/FontAwesome.WIN81.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "LiveCharts/0.9.7": {
+      "sha512": "p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "type": "package",
+      "path": "livecharts/0.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.dll",
+        "lib/net40/LiveCharts.pdb",
+        "lib/net40/LiveCharts.xml",
+        "lib/net45/LiveCharts.dll",
+        "lib/net45/LiveCharts.pdb",
+        "lib/net45/LiveCharts.xml",
+        "lib/portable-net45+win8+wp8/LiveCharts.XML",
+        "lib/portable-net45+win8+wp8/LiveCharts.dll",
+        "lib/portable-net45+win8+wp8/LiveCharts.pdb",
+        "livecharts.0.9.7.nupkg.sha512",
+        "livecharts.nuspec",
+        "readme.txt"
+      ]
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "sha512": "lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "type": "package",
+      "path": "livecharts.wpf/0.9.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.Wpf.XML",
+        "lib/net40/LiveCharts.Wpf.dll",
+        "lib/net40/LiveCharts.Wpf.pdb",
+        "lib/net45/LiveCharts.Wpf.XML",
+        "lib/net45/LiveCharts.Wpf.dll",
+        "lib/net45/LiveCharts.Wpf.pdb",
+        "livecharts.wpf.0.9.7.nupkg.sha512",
+        "livecharts.wpf.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "log4net/2.0.12": {
+      "sha512": "9P67BCftJ7KG+B7rNOM1A9KczUwyEDed6zbAddy5Cj/73xVkzi+rEAHeOgUnW5wDqy1JFlY8+oTP0m1PgJ03Tg==",
+      "type": "package",
+      "path": "log4net/2.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/log4net.dll",
+        "lib/net20/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35/log4net.dll",
+        "lib/net35/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40/log4net.dll",
+        "lib/net40/log4net.xml",
+        "lib/net45/log4net.dll",
+        "lib/net45/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "lib/netstandard1.3/log4net.xml",
+        "lib/netstandard2.0/log4net.dll",
+        "lib/netstandard2.0/log4net.xml",
+        "log4net.2.0.12.nupkg.sha512",
+        "log4net.nuspec",
+        "package-icon.png"
+      ]
+    },
+    "Microsoft.CodeAnalysis.NetAnalyzers/5.0.3": {
+      "sha512": "7rw0JUPSAVGR0HPekQiQvwGPor44p/Ek21+wZABraG4bVYNrSkx98ZZsxSxG5jJ4oqjACJxea8E62UO0dsKDBw==",
+      "type": "package",
+      "path": "microsoft.codeanalysis.netanalyzers/5.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA.rtf",
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.NetAnalyzers.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/Microsoft.CodeAnalysis.NetAnalyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.NetAnalyzers.dll",
+        "analyzers/dotnet/vb/cs/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/de/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/es/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/fr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/it/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/ja/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/ko/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/pl/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/pt-BR/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/ru/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/tr/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/zh-Hans/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "analyzers/dotnet/vb/zh-Hant/Microsoft.CodeAnalysis.NetAnalyzers.resources.dll",
+        "build/DisableNETAnalyzersForNuGetPackage.props",
+        "build/Microsoft.CodeAnalysis.NetAnalyzers.props",
+        "build/Microsoft.CodeAnalysis.NetAnalyzers.targets",
+        "build/config/AnalysisLevelDesign_5_all.editorconfig",
+        "build/config/AnalysisLevelDesign_5_default.editorconfig",
+        "build/config/AnalysisLevelDesign_5_minimum.editorconfig",
+        "build/config/AnalysisLevelDesign_5_none.editorconfig",
+        "build/config/AnalysisLevelDesign_5_recommended.editorconfig",
+        "build/config/AnalysisLevelDocumentation_5_all.editorconfig",
+        "build/config/AnalysisLevelDocumentation_5_default.editorconfig",
+        "build/config/AnalysisLevelDocumentation_5_minimum.editorconfig",
+        "build/config/AnalysisLevelDocumentation_5_none.editorconfig",
+        "build/config/AnalysisLevelDocumentation_5_recommended.editorconfig",
+        "build/config/AnalysisLevelGlobalization_5_all.editorconfig",
+        "build/config/AnalysisLevelGlobalization_5_default.editorconfig",
+        "build/config/AnalysisLevelGlobalization_5_minimum.editorconfig",
+        "build/config/AnalysisLevelGlobalization_5_none.editorconfig",
+        "build/config/AnalysisLevelGlobalization_5_recommended.editorconfig",
+        "build/config/AnalysisLevelInteroperability_5_all.editorconfig",
+        "build/config/AnalysisLevelInteroperability_5_default.editorconfig",
+        "build/config/AnalysisLevelInteroperability_5_minimum.editorconfig",
+        "build/config/AnalysisLevelInteroperability_5_none.editorconfig",
+        "build/config/AnalysisLevelInteroperability_5_recommended.editorconfig",
+        "build/config/AnalysisLevelMaintainability_5_all.editorconfig",
+        "build/config/AnalysisLevelMaintainability_5_default.editorconfig",
+        "build/config/AnalysisLevelMaintainability_5_minimum.editorconfig",
+        "build/config/AnalysisLevelMaintainability_5_none.editorconfig",
+        "build/config/AnalysisLevelMaintainability_5_recommended.editorconfig",
+        "build/config/AnalysisLevelNaming_5_all.editorconfig",
+        "build/config/AnalysisLevelNaming_5_default.editorconfig",
+        "build/config/AnalysisLevelNaming_5_minimum.editorconfig",
+        "build/config/AnalysisLevelNaming_5_none.editorconfig",
+        "build/config/AnalysisLevelNaming_5_recommended.editorconfig",
+        "build/config/AnalysisLevelPerformance_5_all.editorconfig",
+        "build/config/AnalysisLevelPerformance_5_default.editorconfig",
+        "build/config/AnalysisLevelPerformance_5_minimum.editorconfig",
+        "build/config/AnalysisLevelPerformance_5_none.editorconfig",
+        "build/config/AnalysisLevelPerformance_5_recommended.editorconfig",
+        "build/config/AnalysisLevelPublish_5_all.editorconfig",
+        "build/config/AnalysisLevelPublish_5_default.editorconfig",
+        "build/config/AnalysisLevelPublish_5_minimum.editorconfig",
+        "build/config/AnalysisLevelPublish_5_none.editorconfig",
+        "build/config/AnalysisLevelPublish_5_recommended.editorconfig",
+        "build/config/AnalysisLevelReliability_5_all.editorconfig",
+        "build/config/AnalysisLevelReliability_5_default.editorconfig",
+        "build/config/AnalysisLevelReliability_5_minimum.editorconfig",
+        "build/config/AnalysisLevelReliability_5_none.editorconfig",
+        "build/config/AnalysisLevelReliability_5_recommended.editorconfig",
+        "build/config/AnalysisLevelSecurity_5_all.editorconfig",
+        "build/config/AnalysisLevelSecurity_5_default.editorconfig",
+        "build/config/AnalysisLevelSecurity_5_minimum.editorconfig",
+        "build/config/AnalysisLevelSecurity_5_none.editorconfig",
+        "build/config/AnalysisLevelSecurity_5_recommended.editorconfig",
+        "build/config/AnalysisLevelUsage_5_all.editorconfig",
+        "build/config/AnalysisLevelUsage_5_default.editorconfig",
+        "build/config/AnalysisLevelUsage_5_minimum.editorconfig",
+        "build/config/AnalysisLevelUsage_5_none.editorconfig",
+        "build/config/AnalysisLevelUsage_5_recommended.editorconfig",
+        "build/config/AnalysisLevel_5_all.editorconfig",
+        "build/config/AnalysisLevel_5_default.editorconfig",
+        "build/config/AnalysisLevel_5_minimum.editorconfig",
+        "build/config/AnalysisLevel_5_none.editorconfig",
+        "build/config/AnalysisLevel_5_recommended.editorconfig",
+        "documentation/Analyzer Configuration.md",
+        "documentation/Microsoft.CodeAnalysis.NetAnalyzers.md",
+        "documentation/Microsoft.CodeAnalysis.NetAnalyzers.sarif",
+        "editorconfig/AllRulesDefault/.editorconfig",
+        "editorconfig/AllRulesDisabled/.editorconfig",
+        "editorconfig/AllRulesEnabled/.editorconfig",
+        "editorconfig/DataflowRulesDefault/.editorconfig",
+        "editorconfig/DataflowRulesEnabled/.editorconfig",
+        "editorconfig/DesignRulesDefault/.editorconfig",
+        "editorconfig/DesignRulesEnabled/.editorconfig",
+        "editorconfig/DocumentationRulesDefault/.editorconfig",
+        "editorconfig/DocumentationRulesEnabled/.editorconfig",
+        "editorconfig/GlobalizationRulesDefault/.editorconfig",
+        "editorconfig/GlobalizationRulesEnabled/.editorconfig",
+        "editorconfig/InteroperabilityRulesDefault/.editorconfig",
+        "editorconfig/InteroperabilityRulesEnabled/.editorconfig",
+        "editorconfig/MaintainabilityRulesDefault/.editorconfig",
+        "editorconfig/MaintainabilityRulesEnabled/.editorconfig",
+        "editorconfig/NamingRulesDefault/.editorconfig",
+        "editorconfig/NamingRulesEnabled/.editorconfig",
+        "editorconfig/PerformanceRulesDefault/.editorconfig",
+        "editorconfig/PerformanceRulesEnabled/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesDefault/.editorconfig",
+        "editorconfig/PortedFromFxCopRulesEnabled/.editorconfig",
+        "editorconfig/PublishRulesDefault/.editorconfig",
+        "editorconfig/PublishRulesEnabled/.editorconfig",
+        "editorconfig/ReliabilityRulesDefault/.editorconfig",
+        "editorconfig/ReliabilityRulesEnabled/.editorconfig",
+        "editorconfig/SecurityRulesDefault/.editorconfig",
+        "editorconfig/SecurityRulesEnabled/.editorconfig",
+        "editorconfig/UsageRulesDefault/.editorconfig",
+        "editorconfig/UsageRulesEnabled/.editorconfig",
+        "microsoft.codeanalysis.netanalyzers.5.0.3.nupkg.sha512",
+        "microsoft.codeanalysis.netanalyzers.nuspec",
+        "rulesets/AllRulesDefault.ruleset",
+        "rulesets/AllRulesDisabled.ruleset",
+        "rulesets/AllRulesEnabled.ruleset",
+        "rulesets/DataflowRulesDefault.ruleset",
+        "rulesets/DataflowRulesEnabled.ruleset",
+        "rulesets/DesignRulesDefault.ruleset",
+        "rulesets/DesignRulesEnabled.ruleset",
+        "rulesets/DocumentationRulesDefault.ruleset",
+        "rulesets/DocumentationRulesEnabled.ruleset",
+        "rulesets/GlobalizationRulesDefault.ruleset",
+        "rulesets/GlobalizationRulesEnabled.ruleset",
+        "rulesets/InteroperabilityRulesDefault.ruleset",
+        "rulesets/InteroperabilityRulesEnabled.ruleset",
+        "rulesets/MaintainabilityRulesDefault.ruleset",
+        "rulesets/MaintainabilityRulesEnabled.ruleset",
+        "rulesets/NamingRulesDefault.ruleset",
+        "rulesets/NamingRulesEnabled.ruleset",
+        "rulesets/PerformanceRulesDefault.ruleset",
+        "rulesets/PerformanceRulesEnabled.ruleset",
+        "rulesets/PortedFromFxCopRulesDefault.ruleset",
+        "rulesets/PortedFromFxCopRulesEnabled.ruleset",
+        "rulesets/PublishRulesDefault.ruleset",
+        "rulesets/PublishRulesEnabled.ruleset",
+        "rulesets/ReliabilityRulesDefault.ruleset",
+        "rulesets/ReliabilityRulesEnabled.ruleset",
+        "rulesets/SecurityRulesDefault.ruleset",
+        "rulesets/SecurityRulesEnabled.ruleset",
+        "rulesets/UsageRulesDefault.ruleset",
+        "rulesets/UsageRulesEnabled.ruleset",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "WPFTextBoxAutoComplete/1.0.5": {
+      "sha512": "1H3i+AjFD7AQb+N3LKlmvMwnEh7Ym2cP/M0Km/JOWIzuYmGSNasZH48eVFvsrpTPlAm9Al+/Vfw7zVjEBIm1CA==",
+      "type": "package",
+      "path": "wpftextboxautocomplete/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WPFTextBoxAutoComplete.dll",
+        "lib/net40/WPFTextBoxAutoComplete.pdb",
+        "wpftextboxautocomplete.1.0.5.nupkg.sha512",
+        "wpftextboxautocomplete.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "ActiproSoftware.Controls.WPF.DataGrid.Contrib >= 22.1.0",
+      "ActiproSoftware.Controls.WPF.Docking >= 22.1.0",
+      "ActiproSoftware.Controls.WPF.Shared >= 22.1.0",
+      "DotLiquid >= 2.0.325",
+      "FontAwesome.WPF >= 4.7.0.9",
+      "LiveCharts.Wpf >= 0.9.7",
+      "Microsoft.CodeAnalysis.NetAnalyzers >= 5.0.3",
+      "Newtonsoft.Json >= 12.0.3",
+      "WPFTextBoxAutoComplete >= 1.0.5",
+      "log4net >= 2.0.12"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wilda\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\wilda\\Source\\Repos\\EQLogParser\\EQLogParser\\EQLogParser.csproj",
+      "projectName": "EQLogParser",
+      "projectPath": "C:\\Users\\wilda\\Source\\Repos\\EQLogParser\\EQLogParser\\EQLogParser.csproj",
+      "packagesPath": "C:\\Users\\wilda\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\wilda\\Source\\Repos\\EQLogParser\\EQLogParser\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\wilda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "ActiproSoftware.Controls.WPF.DataGrid.Contrib": {
+            "target": "Package",
+            "version": "[22.1.0, )"
+          },
+          "ActiproSoftware.Controls.WPF.Docking": {
+            "target": "Package",
+            "version": "[22.1.0, )"
+          },
+          "ActiproSoftware.Controls.WPF.Shared": {
+            "target": "Package",
+            "version": "[22.1.0, )"
+          },
+          "DotLiquid": {
+            "target": "Package",
+            "version": "[2.0.325, )"
+          },
+          "FontAwesome.WPF": {
+            "target": "Package",
+            "version": "[4.7.0.9, )"
+          },
+          "LiveCharts.Wpf": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          },
+          "Microsoft.CodeAnalysis.NetAnalyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.3, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "WPFTextBoxAutoComplete": {
+            "target": "Package",
+            "version": "[1.0.5, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.12, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

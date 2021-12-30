@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "pm7zn9fTM1lvtPEtmisd/4QtXkYxG+jBnU2znSL20PtMXbUN4pJcyFNli5tPxeKDRmDn/K1Jr3Shk9wy+l6KPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wilda\\Source\\Repos\\EQLogParser\\EQLogParser\\EQLogParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wilda\\.nuget\\packages\\actiprosoftware.controls.wpf.datagrid.contrib\\22.1.0\\actiprosoftware.controls.wpf.datagrid.contrib.22.1.0.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\actiprosoftware.controls.wpf.docking\\22.1.0\\actiprosoftware.controls.wpf.docking.22.1.0.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\actiprosoftware.controls.wpf.shared\\22.1.0\\actiprosoftware.controls.wpf.shared.22.1.0.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\dotliquid\\2.0.325\\dotliquid.2.0.325.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\5.0.3\\microsoft.codeanalysis.netanalyzers.5.0.3.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\wilda\\.nuget\\packages\\wpftextboxautocomplete\\1.0.5\\wpftextboxautocomplete.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
