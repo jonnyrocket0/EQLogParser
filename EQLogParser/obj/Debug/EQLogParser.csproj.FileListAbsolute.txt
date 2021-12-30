@@ -85,3 +85,4 @@ C:\Users\wilda\Source\Repos\EQLogParser\EQLogParser\obj\Debug\EQLogParser.csproj
 C:\Users\wilda\Source\Repos\EQLogParser\EQLogParser\obj\Debug\EQLogParser.csproj.CopyComplete
 C:\Users\wilda\Source\Repos\EQLogParser\EQLogParser\obj\Debug\EQLogParser.exe
 C:\Users\wilda\Source\Repos\EQLogParser\EQLogParser\obj\Debug\EQLogParser.pdb
+C:\Users\wilda\Source\Repos\EQLogParser\EQLogParser\obj\Debug\EQLogParser.csprojAssemblyReference.cache
